@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Complete-Spring-Reference.iml" filepath="$PROJECT_DIR$/.idea/Complete-Spring-Reference.iml" />
-      <module fileurl="file://$PROJECT_DIR$/inversion-of-control/inversion-of-control.iml" filepath="$PROJECT_DIR$/inversion-of-control/inversion-of-control.iml" />
-    </modules>
-  </component>
-</project>
