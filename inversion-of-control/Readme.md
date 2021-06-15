@@ -12,5 +12,7 @@
 Spring Container is the core of the Spring Framework. The container will create the objects, wire them together, configure them and manage their complete life cycle from. The container gets its instructions on what objects to instantiate, configure, and assemble by reading the configuration metadata provided. The configuration metadata can be represented either by XML, Java annotations, or Java code. The BeanFactory interface provides an advanced configuration mechanism capable of managing objects of any nature.
 
 ### Spring Beans
-
 A Spring Bean is simply a Plain Old Java Object ***(POJO)***. When java objects are created by the Spring Container, Spring refers to them as Spring Beans.  A bean is an object that is instantiated, assembled, and otherwise managed by a Spring IoC container. These beans are created with the configuration metadata that you supply to the container.
+
+### Spring BeanFactory
+The BeanFactory is the actual representation of the Spring IoC container that is responsible for containing and otherwise managing the ***Spring Beans***. The BeanFactory interface is the central IoC container interface in Spring. There are a number of implementations of the BeanFactory interface. The most commonly used BeanFactory implementation is the XmlBeanFactory class. Other commonly used class is XmlWebApplicationContext.
