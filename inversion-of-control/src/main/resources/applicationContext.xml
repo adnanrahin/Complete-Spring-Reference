@@ -9,8 +9,12 @@
 
     <!-- Define your beans here -->
 
-    <bean id="myCoach"
+    <bean id="trackCoach"
           class="com.spring.ioc.xml_config.TrackCoach">
+    </bean>
+
+    <bean id="baseBallCoach"
+          class="com.spring.ioc.xml_config.BaseBallCoach">
     </bean>
 
 </beans>
