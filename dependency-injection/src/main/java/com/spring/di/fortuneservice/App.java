@@ -1,4 +1,4 @@
-package com.spring.di;
+package com.spring.di.fortuneservice;
 
 /**
  * Hello world!
