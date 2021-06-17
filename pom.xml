@@ -15,6 +15,7 @@
     <modules>
         <module>inversion-of-control</module>
         <module>dependency-injection</module>
+        <module>spring-bean-scopes</module>
     </modules>
 
 </project>
