@@ -14,8 +14,15 @@
     </bean>
 
     <bean id="trackCoach"
-        class="com.spring.ioc.xml_config.TrackCoach" scope="singleton">
+        class="com.spring.ioc.xml_config.TrackCoach" scope="prototype">
         <constructor-arg ref="happyFortuneService"/>
+    </bean>
+
+    <bean id="baseBallCoach" class="com.spring.ioc.xml_config.BaseBallCoach" scope="singleton"
+        init-method="doStartUpConfig" destroy-method="doDestroyConfig">
+
+        <property name="fortuneService" ref="happyFortuneService"/>
+
     </bean>
 
 </beans>
