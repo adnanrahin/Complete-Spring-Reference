@@ -1,4 +1,4 @@
-package com.spring.ioc;
+package com.spring.ioc.xml_config;
 
 public class App {
     public static void main(String[] args) {
