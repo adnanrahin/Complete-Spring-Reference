@@ -1,4 +1,4 @@
-package com.spring.di.fortuneservice;
+package com.spring.di.constructorinjection;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -14,6 +14,8 @@ public class App {
         Coach trackCoach = context.getBean("trackCoach", Coach.class);
 
         System.out.println(trackCoach.getDailyWorkout());
+
+        System.out.println(trackCoach.getDailyFortune());
 
         context.close();
     }

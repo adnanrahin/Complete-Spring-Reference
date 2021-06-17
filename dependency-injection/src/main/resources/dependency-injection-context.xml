@@ -9,8 +9,15 @@
 
     <!-- Define your beans here -->
 
+    <bean id="happyFortuneService"
+        class="com.spring.di.constructorinjection.HappyFortuneService">
+    </bean>
+
     <bean id="trackCoach"
-        class="com.spring.di.fortuneservice.TrackCoach">
+        class="com.spring.di.constructorinjection.TrackCoach">
+
+        <!-- set up Constructor Injection-->
+        <constructor-arg ref="happyFortuneService"/>
     </bean>
 
 </beans>
