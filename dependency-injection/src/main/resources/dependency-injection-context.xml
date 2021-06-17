@@ -9,8 +9,8 @@
 
     <!-- Define your beans here -->
 
-    <bean>
-
+    <bean id="trackCoach"
+        class="com.spring.di.fortuneservice.TrackCoach">
     </bean>
 
 </beans>

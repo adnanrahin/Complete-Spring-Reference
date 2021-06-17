@@ -1,10 +1,20 @@
 package com.spring.di.fortuneservice;
 
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
 /**
  * Hello world!
  */
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+
+        ClassPathXmlApplicationContext context =
+                new ClassPathXmlApplicationContext("dependency-injection-context.xml");
+
+        Coach trackCoach = context.getBean("trackCoach", Coach.class);
+
+        System.out.println(trackCoach.getDailyWorkout());
+
+        context.close();
     }
 }
