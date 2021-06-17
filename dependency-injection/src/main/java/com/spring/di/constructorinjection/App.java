@@ -6,7 +6,7 @@ public class App {
     public static void main(String[] args) {
 
         ClassPathXmlApplicationContext context =
-                new ClassPathXmlApplicationContext("dependency-injection-context.xml");
+                new ClassPathXmlApplicationContext("constructor-dependency-injection-context.xml");
 
         Coach trackCoach = context.getBean("trackCoach", Coach.class);
 
