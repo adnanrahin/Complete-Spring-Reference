@@ -16,3 +16,5 @@ A Spring Bean is simply a Plain Old Java Object ***(POJO)***. When java objects 
 
 ### Spring BeanFactory
 A BeanFactory contains a collection of beans. In Spring IoC container BeanFactory is responsible for containing and otherwise managing the ***Spring Beans***. The BeanFactory interface is the central IoC container interface in Spring. There are a number of implementations of the BeanFactory interface. The most commonly used BeanFactory implementation is the XmlBeanFactory class. Other commonly used class is XmlWebApplicationContext.
+
+### Spring Component Scanning
