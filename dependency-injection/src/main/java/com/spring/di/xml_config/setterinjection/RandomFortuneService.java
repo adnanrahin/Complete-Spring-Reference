@@ -1,4 +1,4 @@
-package com.spring.di.setterinjection;
+package com.spring.di.xml_config.setterinjection;
 
 public class RandomFortuneService implements FortuneService{
     @Override

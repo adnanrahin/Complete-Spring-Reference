@@ -1,4 +1,4 @@
-package com.spring.di.setterinjection;
+package com.spring.di.xml_config.constructorinjection;
 
 public interface Coach {
 

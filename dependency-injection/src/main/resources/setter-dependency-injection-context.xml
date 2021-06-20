@@ -10,11 +10,11 @@
     <!-- Define your beans here -->
 
     <bean id="randomFortuneService"
-        class="com.spring.di.setterinjection.RandomFortuneService">
+        class="com.spring.di.xml_config.setterinjection.RandomFortuneService">
     </bean>
 
     <bean id="cricketCoach"
-        class="com.spring.di.setterinjection.CricketCoach">
+        class="com.spring.di.xml_config.setterinjection.CricketCoach">
 
         <!--setter injection-->
         <property name="fortuneService" ref="randomFortuneService" />

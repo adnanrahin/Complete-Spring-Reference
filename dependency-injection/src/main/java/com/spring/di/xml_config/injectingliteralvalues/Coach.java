@@ -1,4 +1,4 @@
-package com.spring.di.constructorinjection;
+package com.spring.di.xml_config.injectingliteralvalues;
 
 public interface Coach {
 

@@ -10,11 +10,11 @@
     <!-- Define your beans here -->
 
     <bean id="publicFortuneService"
-        class="com.spring.di.injectingliteralvalues.PublicFortuneService">
+        class="com.spring.di.xml_config.injectingliteralvalues.PublicFortuneService">
     </bean>
 
     <bean id="baseBallCoach"
-        class="com.spring.di.injectingliteralvalues.BaseBallCoach">
+        class="com.spring.di.xml_config.injectingliteralvalues.BaseBallCoach">
 
         <!--setter injection-->
         <property name="fortuneService" ref="publicFortuneService" />

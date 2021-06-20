@@ -1,4 +1,4 @@
-package com.spring.di.setterinjection;
+package com.spring.di.xml_config.injectingliteralvalues;
 
 public class TrackCoach implements Coach {
 

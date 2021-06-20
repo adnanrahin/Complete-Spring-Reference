@@ -1,4 +1,4 @@
-package com.spring.di.injectingliteralvalues;
+package com.spring.di.xml_config.injectingliteralvalues;
 
 public class CricketCoach implements Coach {
 
