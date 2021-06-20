@@ -1,11 +1,18 @@
 package com.spring.config;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
-public class BaseBallCoach implements Coach{
+public class BaseBallCoach implements Coach {
 
-    
+    private FortuneService fortuneService;
+
+    @Autowired
+    public BaseBallCoach(@Qualifier("randomFortuneService") FortuneService fortuneService) {
+        this.fortuneService = fortuneService;
+    }
 
     @Override
     public String getDailyWorkout() {
@@ -14,6 +21,6 @@ public class BaseBallCoach implements Coach{
 
     @Override
     public String getDailyFortune() {
-        return null;
+        return fortuneService.getDailyFortune();
     }
 }
