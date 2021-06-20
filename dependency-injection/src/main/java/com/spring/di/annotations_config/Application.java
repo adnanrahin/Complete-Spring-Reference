@@ -14,6 +14,11 @@ public class Application {
         System.out.println(tennisCoach.getDailyFortune());
         System.out.println(tennisCoach.getDailyWorkout());
 
+        Coach baseBallCoach = context.getBean("baseballCoach", Coach.class);
+
+        System.out.println(baseBallCoach.getDailyWorkout());
+        System.out.println(baseBallCoach.getDailyFortune());
+
         context.close();
 
     }
