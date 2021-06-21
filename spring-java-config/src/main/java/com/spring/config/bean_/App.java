@@ -1,6 +1,5 @@
 package com.spring.config.bean_;
 
-
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class App {
