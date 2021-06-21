@@ -1,7 +1,6 @@
 package com.spring.config.component_config;
 
-import com.spring.config.bean_config.Coach;
-import com.spring.config.bean_config.SportConfig;
+
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class App {
@@ -10,11 +9,11 @@ public class App {
 
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(SportConfig.class);
 
-        com.spring.config.bean_config.Coach baseBallCoach = context.getBean("baseBallCoach", Coach.class);
+        Coach swimCoach = context.getBean("swimCoach", Coach.class);
 
-        System.out.println(baseBallCoach.getDailyWorkout());
+        System.out.println(swimCoach.getDailyWorkout());
 
-        System.out.println(baseBallCoach.getDailyFortune());
+        System.out.println(swimCoach.getDailyFortune());
 
         context.close();
 
