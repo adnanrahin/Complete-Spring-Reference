@@ -1,4 +1,4 @@
-package com.spring.config.component_config;
+package com.spring.config.bean_;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

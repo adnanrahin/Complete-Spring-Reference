@@ -1,6 +1,6 @@
-package com.spring.config.component_config;
+package com.spring.config.bean_;
 
-import com.spring.config.bean_config.FortuneService;
+import com.spring.config.component_.FortuneService;
 import org.springframework.stereotype.Component;
 
 @Component

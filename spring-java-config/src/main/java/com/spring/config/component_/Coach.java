@@ -1,4 +1,4 @@
-package com.spring.config.component_config;
+package com.spring.config.component_;
 
 public interface Coach {
 
