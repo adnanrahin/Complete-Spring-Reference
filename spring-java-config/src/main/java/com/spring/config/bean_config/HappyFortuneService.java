@@ -1,4 +1,4 @@
-package com.spring.config;
+package com.spring.config.bean_config;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;

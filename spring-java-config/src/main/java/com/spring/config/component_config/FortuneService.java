@@ -1,4 +1,4 @@
-package com.spring.config;
+package com.spring.config.component_config;
 
 public interface FortuneService {
 
