@@ -18,6 +18,7 @@
         <module>spring-bean-scopes</module>
         <module>spring-annotations-example</module>
         <module>spring-java-config</module>
+        <module>spring-mvc-one</module>
     </modules>
 
 </project>
