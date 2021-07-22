@@ -12,5 +12,8 @@
 </head>
 <body>
 <h2> A simple Main Menu View Page</h2>
+
+<a href="${pageContext.request.contextPath}/showForm"> Show Hello World Form</a>
+
 </body>
 </html>
