@@ -19,6 +19,7 @@
         <module>spring-annotations-example</module>
         <module>spring-java-config</module>
         <module>spring-mvc-one</module>
+        <module>spring-mvc-form-data-binding</module>
     </modules>
 
 </project>
