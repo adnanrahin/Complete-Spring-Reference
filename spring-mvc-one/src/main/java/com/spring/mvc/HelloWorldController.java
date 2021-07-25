@@ -30,7 +30,7 @@ public class HelloWorldController {
     @RequestMapping("/processFormVersionThree")
     public String processFormVersionThree(@RequestParam("studentName") String name, Model model) {
 
-        name = "Hello " + name.toUpperCase();
+        name = "ssup  " + name.toUpperCase();
 
         model.addAttribute("message", name);
 
