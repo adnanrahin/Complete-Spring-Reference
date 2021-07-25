@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<form action="processForm" method="get">
+<form action="processFormVersionThree" method="get">
 
     <label>
         <input type="text" name="studentName" placeholder="What is your name?"/>
